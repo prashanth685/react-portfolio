@@ -1,0 +1,6 @@
+.experience_main_container {
+  width: 100%;
+  min-height: 500px;
+  background: #dc9e9e;
+  display: flex;
+}
