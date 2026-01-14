@@ -17,14 +17,17 @@ const Header = () => {
             continuously learning modern web technologies to deliver exceptional
             user experiences.
           </div>
-          <button class="button">
-            <a
-              href="http://65.0.147.141:3000/"
-              style={{ textDecoration: "none", color: "#fff" }}
-            >
-              Download CV
-            </a>
-          </button>
+          <div>
+            <button className="button">
+              <a
+                href="https://drive.google.com/file/d/18I3s5cotFx2KXo0ae_-zx4Pyr30L0sca/view?usp=sharing"
+                target="__blank"
+                style={{ textDecoration: "none", color: "#fff" }}
+              >
+                Download CV
+              </a>
+            </button>
+          </div>
         </div>
       </div>
     </>
