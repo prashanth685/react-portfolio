@@ -1,7 +1,19 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Navbar.css";
+import "../index.css";
 
 const Navbar = () => {
+  const [mode, setMode] = useState("light");
+
+  const handleclick = () => {
+    if (mode === "light") {
+      document.body.classList.add("dark");
+      setMode("dark");
+    } else {
+      document.body.classList.remove("dark");
+      setMode("light");
+    }
+  };
   return (
     <>
       <div className="navbar_container">
@@ -25,7 +37,7 @@ const Navbar = () => {
           </ul>
 
           <label className="switch">
-            <input type="checkbox" />
+            <input type="checkbox" onClick={handleclick} />
             <span className="slider"></span>
           </label>
         </div>

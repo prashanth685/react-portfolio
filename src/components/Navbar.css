@@ -3,7 +3,7 @@
   height: 60px;
   position: sticky;
   top: 0;
-  background-color: #ffffff;
+  background-color: #020617;
   display: flex;
   align-items: center;
   padding: 0 20px;
@@ -28,7 +28,7 @@
 
 .navbar_links li a {
   text-decoration: none;
-  color: #333;
+  color: #fff;
   font-weight: 500;
   padding: 5px 10px;
   transition: background 0.3s, color 0.3s;
