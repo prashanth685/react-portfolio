@@ -1,14 +1,17 @@
 import React from "react";
 import Navbar from "./components/Navbar";
-import Header from "./components/Header";
-import Experience from "./components/Experience";
+import { Route, Routes } from "react-router-dom";
+import About from "./components/About";
+import Home from "./components/Home";
 
 const App = () => {
   return (
     <>
       <Navbar />
-      <Header />
-      <Experience />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+      </Routes>
     </>
   );
 };
