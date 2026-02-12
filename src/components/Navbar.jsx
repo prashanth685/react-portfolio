@@ -15,59 +15,34 @@ const Navbar = () => {
       bg-[#0F1117]/80 backdrop-blur-lg border-b border-[#27CBCB]/10
       shadow-[0_8px_30px_rgba(0,0,0,0.3)]"
     >
-      <NavLink
-        to="/"
+      <a
+        href="#"
         className="text-2xl font-semibold tracking-wide text-white hover:text-[#27CBCB] transition duration-300"
       >
         {"<Prashanth/>"} <span className="text-[#27CBCB]">S</span>
-      </NavLink>
+      </a>
 
       {/* Nav Links */}
       <div className="hidden md:flex items-center gap-8 text-[17px] font-medium">
-        <NavLink
-          to="/about"
-          className={({ isActive }) =>
-            `${linkStyles} ${isActive ? activeStyles : ""}`
-          }
-        >
+        <a href="#about" className={linkStyles}>
           {"<About />"}
-        </NavLink>
+        </a>
 
-        <NavLink
-          to="/experience"
-          className={({ isActive }) =>
-            `${linkStyles} ${isActive ? activeStyles : ""}`
-          }
-        >
-          {"<Experience>"}
-        </NavLink>
+        <a href="#experience" className={linkStyles}>
+          {"<Experience />"}
+        </a>
 
-        <NavLink
-          to="/skills"
-          className={({ isActive }) =>
-            `${linkStyles} ${isActive ? activeStyles : ""}`
-          }
-        >
-          {"<Skills/>"}
-        </NavLink>
+        <a href="#skills" className={linkStyles}>
+          {"<Skills />"}
+        </a>
 
-        <NavLink
-          to="/projects"
-          className={({ isActive }) =>
-            `${linkStyles} ${isActive ? activeStyles : ""}`
-          }
-        >
-          {"<Projects/>"}
-        </NavLink>
+        <a href="#projects" className={linkStyles}>
+          {"<Projects />"}
+        </a>
 
-        <NavLink
-          to="/contact"
-          className={({ isActive }) =>
-            `${linkStyles} ${isActive ? activeStyles : ""}`
-          }
-        >
-          {"<Contact/>"}
-        </NavLink>
+        <a href="#contact" className={linkStyles}>
+          {"<Contact />"}
+        </a>
       </div>
     </nav>
   );
