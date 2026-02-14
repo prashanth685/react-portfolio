@@ -3,11 +3,14 @@ import React, { useState, useEffect } from "react";
 const Navbar = () => {
   const [active, setActive] = useState("");
   const [menuOpen, setMenuOpen] = useState(false);
+  const [scrolled, setScrolled] = useState(false);
 
   const sections = ["about", "experience", "skills", "projects", "contact"];
 
   useEffect(() => {
     const handleScroll = () => {
+      setScrolled(window.scrollY > 50);
+
       sections.forEach((section) => {
         const element = document.getElementById(section);
         if (element) {
@@ -32,8 +35,9 @@ const Navbar = () => {
 
   return (
     <nav className="fixed top-0 w-full z-50 bg-[#0F1117]/80 backdrop-blur-lg border-b border-[#27CBCB]/10 px-6 md:px-16 h-20 flex justify-between items-center">
-      <h1 className="text-2xl font-semibold text-white">
-        {"<Prashanth/>"} <span className="text-[#27CBCB]">S</span>
+      <h1 className="text-2xl font-semibold text-white ">
+        <a href="#">{"<Prashanth/>"}</a>
+        <span className="text-[#27CBCB]">S</span>
       </h1>
 
       {/* Desktop Menu */}

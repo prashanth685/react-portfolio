@@ -41,8 +41,20 @@ const About = () => {
           </p>
 
           <div className="flex justify-center gap-5 mt-5 text-[#27BCBC] text-xl">
-            <FaGithub className="cursor-pointer hover:scale-110 transition duration-300" />
-            <FaLinkedin className="cursor-pointer hover:scale-110 transition duration-300" />
+            <a href="https://github.com/prashanth685" target="_blank">
+              {" "}
+              <FaGithub className="cursor-pointer hover:scale-110 transition duration-300" />
+            </a>
+
+            <a
+              href="https://www.linkedin.com/in/prashanth-s-48b57b240 "
+              target="_blank"
+            >
+              <FaLinkedin
+                className="cursor-pointer hover:scale-110 transition duration-300"
+                onClick={() => {}}
+              />
+            </a>
           </div>
         </div>
       </FadeInSection>
