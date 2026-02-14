@@ -1,5 +1,10 @@
 import React from "react";
-import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
+import {
+  FaGithub,
+  FaLinkedin,
+  FaEnvelope,
+  FaExternalLinkAlt,
+} from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -47,6 +52,14 @@ const Footer = () => {
           >
             <FaLinkedin />
             LinkedIn
+          </a>
+          <a
+            href="https://drive.google.com/file/d/1tYQF19f9xY70jwuPhDdn8vdvfyGqtDnr/view?usp=drive_link"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center gap-2 bg-[#27CBCB] text-white px-4 py-2 rounded-lg hover:bg-[#27CBCB] transition"
+          >
+            <FaExternalLinkAlt /> Download Resume
           </a>
         </div>
 
