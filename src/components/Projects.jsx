@@ -33,7 +33,7 @@ const Projects = () => {
               </div>
 
               <div className="text-gray-500 text-sm md:text-right">
-                <p>Mar 2024 – Aug 2025</p>
+                <p>Aug 2024 – Aug 2025</p>
               </div>
             </div>
 
