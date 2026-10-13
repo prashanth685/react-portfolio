@@ -34,9 +34,6 @@ const Projects = () => {
 
               <div className="text-gray-500 text-sm md:text-right">
                 <p>Mar 2024 – Aug 2025</p>
-                <span className="inline-block mt-1 bg-green-100 text-green-600 px-3 py-1 rounded-full">
-                  Completed
-                </span>
               </div>
             </div>
 
@@ -167,10 +164,6 @@ const Projects = () => {
 
               <div className="text-gray-500 text-sm md:text-right">
                 <p>Aug 2025 – Present</p>
-
-                <span className="inline-block mt-1 bg-yellow-100 text-yellow-600 px-3 py-1 rounded-full">
-                  In Progress
-                </span>
               </div>
             </div>
 
@@ -227,18 +220,6 @@ const Projects = () => {
                   experience as the project progresses.
                 </li>
               </ul>
-            </div>
-
-            {/* Current Status */}
-            <div className="mt-8 p-4 bg-yellow-50 border-l-4 border-yellow-400 rounded-lg">
-              <h3 className="font-semibold text-yellow-700">Project Status</h3>
-
-              <p className="text-sm text-yellow-700 mt-1 leading-relaxed">
-                This project is currently under active development. Real-time
-                sensor communication, dashboard visualization, gauges, and
-                reporting features are being developed and enhanced
-                incrementally.
-              </p>
             </div>
 
             {/* Tech Stack */}

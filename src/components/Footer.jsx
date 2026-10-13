@@ -54,7 +54,7 @@ const Footer = () => {
             LinkedIn
           </a>
           <a
-            href="https://drive.google.com/file/d/1tYQF19f9xY70jwuPhDdn8vdvfyGqtDnr/view?usp=drive_link"
+            href="https://drive.google.com/file/d/1UgIoIxwkh7rIH8VbGJTW4MjGt0HqNqQe/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-2 bg-[#27CBCB] text-white px-4 py-2 rounded-lg hover:bg-[#27CBCB] transition"
